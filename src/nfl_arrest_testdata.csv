@@ -1,0 +1,5 @@
+TestID,URL,Description,Parameters,Assert
+1,http://nflarrest.com/api/v1/crime,Top Most Crimes,,**SYSTEM**:DataPresent
+2,http://nflarrest.com/api/v1/crime,Top Most Crimes,,Trespassing
+3,http://nflarrest.com/api/v1/crime/arrests/Trespassing,All Arrests,,**SYSTEM**:DataPresent
+4,http://nflarrest.com/api/v1/crime/arrests/Trespassing,All Arrests,limit=2,Team_Name
